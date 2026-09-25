@@ -1,0 +1,20 @@
+# Audio
+librosa
+scipy
+soundfile
+numpy
+matplotlib
+
+# ASR
+openai-whisper
+
+# RAG / embeddings
+sentence-transformers
+
+# Translation
+transformers
+sacremoses
+sentencepiece
+
+# Notebooks
+jupyter

@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+\input{preamble.tex}
+
+\title{KathAI Project Member Application}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{General Questionnaire}
+
+\subsection{Essentials}
+
+\paragraph{1. Tell us something about yourself.}
+%
+
+\paragraph{2. What does RAG really do? What is semantic meaning according to your computer?}
+%
+
+\paragraph{3. Why is dealing with noisy data important?}
+%
+
+\paragraph{4. Why do we need RAG? Can't LLMs solve all our NLP problems?}
+%
+
+\subsection{Project Goals and Expectations}
+
+\paragraph{1. Describe the goals of the project in as much detail as possible.}
+%
+
+\paragraph{2. Imagine yourself a year later, looking back at the work you did.}
+%
+
+\paragraph{3. Considering your definition of tremendous success, how much effort would it take?}
+%
+
+\subsection{Motivation and Drive}
+
+\paragraph{1. What is your primary motivation for joining this project?}
+%
+
+\paragraph{2. Is there another opportunity more aligned with this motivation than KathAI PM?}
+%
+
+\paragraph{3. What could dampen your enthusiasm or make you disengage?}
+%
+
+\paragraph{4. Depth vs.\ breadth tradeoff, early UG — is this a good opportunity for you?}
+%
+
+\subsection{Commitments/PoRs}
+
+\paragraph{1. Other commitments this academic year, peaks, and how you'll prioritize.}
+%
+
+\section{Technical Questionnaire}
+
+\subsection{The Damaged Recording (2.1)}
+
+\subsubsection*{Part 1: Speech Degradation \& Baseline}
+
+\paragraph{1. Representations of the reference recording.}
+%
+% \includegraphics[width=\linewidth]{figures/2.1_representations.png}
+
+\paragraph{2. Degraded versions (one factor at a time).}
+%
+
+\paragraph{3. Recoverable vs.\ unrecoverable degradation.}
+%
+
+\subsubsection*{Part 2: Reconstruction \& Failure Modes}
+
+\paragraph{4. Two restoration techniques.}
+%
+
+\paragraph{5. Reference vs.\ damaged vs.\ restored comparison.}
+%
+
+\paragraph{6. Break the pipeline.}
+%
+
+\paragraph{7. ``Cleaner-sounding audio is not always higher-fidelity audio.''}
+%
+
+\subsection{The Chunk That Cut the Story in Half (2.2)}
+
+\paragraph{1. Why naive fixed-size chunking breaks on raw transcripts.}
+%
+
+\paragraph{2. Two alternative chunking strategies.}
+%
+
+\paragraph{3. Implementation and evaluation of context loss.}
+%
+% \begin{table}[h]
+% \centering
+% \begin{tabular}{lcc}
+% \toprule
+% Strategy & Hit rate @ k & Notes \\
+% \midrule
+% Semantic & & \\
+% Speaker-turn & & \\
+% \bottomrule
+% \end{tabular}
+% \caption{Retrieval evaluation across chunking strategies}
+% \end{table}
+
+\paragraph{4. Bonus: Whisper transcripts made queryable.}
+%
+
+\subsection{When the English Sounds Right but the Meaning Is Wrong (2.3)}
+
+\subsubsection*{Part 1: Where does the meaning go?}
+
+\paragraph{1. Data-flow diagram through the translation pipeline.}
+%
+% \includegraphics[width=\linewidth]{figures/2.3_dataflow.png}
+
+\paragraph{2. Behavior under meaningfully different linguistic situations.}
+%
+
+\subsubsection*{Part 2: Can you improve a failure?}
+
+\paragraph{3. One repeated failure, diagnosis, and fix.}
+%
+
+\paragraph{4. Did the intervention actually improve translation?}
+%
+
+\paragraph{5. Flagging unreliable translations without ground truth.}
+%
+
+\section*{Resources}
+% Cite everything from notes/citations.md here.
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
