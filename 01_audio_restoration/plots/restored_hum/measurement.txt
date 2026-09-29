@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: restored_hum.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.959259
+RMS amplitude: 0.144619
+Spectral centroid (Hz): 2093.278213
+Spectral bandwidth (Hz): 2641.477167
+Spectral rolloff (Hz): 3868.821487

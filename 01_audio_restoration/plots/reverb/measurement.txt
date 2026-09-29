@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: reverb.wav
+
+Duration (s): 15.477313
+Sample rate (Hz): 48000
+Samples: 742911
+Peak amplitude: 0.950012
+RMS amplitude: 0.117336
+Spectral centroid (Hz): 2268.987817
+Spectral bandwidth (Hz): 2983.369130
+Spectral rolloff (Hz): 4404.860872

@@ -1,0 +1,29 @@
+WRONG RESTORATION: DEREVERBERATION ON CLIPPING
+================================================
+
+Purpose:
+Apply a dereverberation method to a clipped signal for Q6.
+
+Sample rate: 48000 Hz
+Regularization: 0.001
+
+Reference vs clipped
+--------------------
+RMSE: 0.045645
+Correlation: 0.961618
+
+Reference vs wrongly restored
+-----------------------------
+RMSE: 0.165432
+Correlation: 0.069270
+
+RMS comparison
+--------------
+Reference RMS: 0.144632
+Clipped RMS: 0.116633
+Restored RMS: 0.090948
+
+Clipping comparison
+-------------------
+Before restoration: 6.658652%
+After restoration: 0.161104%

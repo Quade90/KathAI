@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: restored_dereverb.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.244629
+RMS amplitude: 0.034561
+Spectral centroid (Hz): 2082.194042
+Spectral bandwidth (Hz): 2813.487273
+Spectral rolloff (Hz): 3877.825436

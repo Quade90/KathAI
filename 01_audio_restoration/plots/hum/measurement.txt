@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: hum_50hz.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 1.000000
+RMS amplitude: 0.256448
+Spectral centroid (Hz): 1025.008933
+Spectral bandwidth (Hz): 1892.940771
+Spectral rolloff (Hz): 1915.475218

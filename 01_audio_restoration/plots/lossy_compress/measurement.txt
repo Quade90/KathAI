@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: compressed_32kbps.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.908905
+RMS amplitude: 0.137487
+Spectral centroid (Hz): 1510.761904
+Spectral bandwidth (Hz): 1473.501693
+Spectral rolloff (Hz): 2894.778050

@@ -1,0 +1,33 @@
+category,question,top_score,source,chunk_id
+in_domain,Who developed the design that became the modern zipper?,0.6976104974746704,veritasium,2
+in_domain,Why do so many zippers have YKK written on them?,0.7523576617240906,veritasium,8
+in_domain,How does the slider make the two sides of a zipper interlock?,0.7619888186454773,veritasium,9
+in_domain,Why was Whitcomb Judson's early fastener commercially unsuccessful?,0.7934765815734863,veritasium,1
+in_domain,What advantage does a coil zipper have over a traditional toothed zipper?,0.7293091416358948,veritasium,6
+in_domain,How does the locking mechanism prevent a zipper from opening accidentally?,0.8029603362083435,veritasium,7
+in_domain,What role does the route car play in the presidential motorcade?,0.8003586530685425,neo,3
+in_domain,How does barrage jamming protect the motorcade from remotely triggered explosives?,0.7436701655387878,neo,1
+in_domain,What is the purpose of the counter-assault team?,0.5444557666778564,neo,1
+in_domain,Why are there two identical presidential limousines?,0.7159281969070435,neo,2
+in_domain,What security features does the Beast have?,0.5697386860847473,neo,0
+in_domain,How do the vehicles surrounding the president create a protective buffer?,0.8039453029632568,neo,3
+in_domain,Why does the visual argument for the sphere's surface area give the wrong result?,0.7956223487854004,3b1b,7
+in_domain,Why does the pi equals four argument fail even though the jagged curves approach a circle?,0.7815290093421936,3b1b,10
+in_domain,What are the three false proofs discussed in the video?,0.7114673256874084,3b1b,7
+in_domain,What mistake is made in the proof that all triangles are isosceles?,0.832926332950592,3b1b,3
+in_domain,Why can't the curved wedges of a sphere simply be flattened like slices of a circle?,0.8496169447898865,3b1b,8
+in_domain,What lesson does the video give about relying on visual intuition in mathematics?,0.65070641040802,3b1b,11
+borderline,When was YKK founded?,0.5774257183074951,veritasium,8
+borderline,What materials are modern waterproof zippers made from?,0.6608580946922302,veritasium,8
+borderline,How fast can the presidential limousine travel?,0.7260613441467285,neo,3
+borderline,How many Secret Service agents travel in a typical motorcade?,0.7054306268692017,neo,1
+borderline,What is the formal mathematical definition of uniform convergence?,0.663647472858429,3b1b,2
+borderline,Who first proved the correct formula for the surface area of a sphere?,0.7861910462379456,3b1b,0
+unrelated,What is McQueen's first name?,0.42889776825904846,veritasium,2
+unrelated,How does photosynthesis work?,0.5491361618041992,3b1b,0
+unrelated,What is the capital of Argentina?,0.4118158519268036,3b1b,5
+unrelated,Why do black holes emit Hawking radiation?,0.5451562404632568,3b1b,8
+unrelated,How does TCP congestion control work?,0.5352388620376587,veritasium,5
+unrelated,What caused the French Revolution?,0.49173253774642944,3b1b,7
+unrelated,How do lithium-ion batteries store energy?,0.5527869462966919,veritasium,6
+unrelated,What is the tallest mountain on Mars?,0.45059093832969666,3b1b,8

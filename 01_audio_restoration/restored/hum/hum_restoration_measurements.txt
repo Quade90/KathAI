@@ -1,0 +1,23 @@
+HUM RESTORATION MEASUREMENTS
+============================
+
+Reference file: reference.wav
+Degraded file: hum_50hz.wav
+Restored file: restored_hum.wav
+
+Sample rate (Hz): 48000
+Detected hum frequency (Hz): 49.987793
+Notch filter Q: 30
+
+REFERENCE MATCH
+----------------
+RMSE before restoration: 0.212098
+RMSE after restoration: 0.008910
+Correlation before restoration: 0.562117
+Correlation after restoration: 0.998103
+
+HUM REMOVAL
+------------
+Hum amplitude before: 38982.608161
+Hum amplitude after: 697.364152
+Hum attenuation (dB): -34.948225

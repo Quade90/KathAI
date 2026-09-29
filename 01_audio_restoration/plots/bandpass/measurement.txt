@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: bandpass_500_4000hz.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.807861
+RMS amplitude: 0.078270
+Spectral centroid (Hz): 1847.764023
+Spectral bandwidth (Hz): 1336.701870
+Spectral rolloff (Hz): 2910.913671

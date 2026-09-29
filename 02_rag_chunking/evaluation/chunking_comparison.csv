@@ -1,0 +1,91 @@
+question,source,k,semantic_success,baseline_success
+Why does the sphere surface-area visual proof give the wrong result?,3b1b,1,0,0
+Why does the sphere surface-area visual proof give the wrong result?,3b1b,3,0,1
+Why does the sphere surface-area visual proof give the wrong result?,3b1b,5,1,1
+Why does the pi equals four limiting argument fail?,3b1b,1,1,0
+Why does the pi equals four limiting argument fail?,3b1b,3,1,1
+Why does the pi equals four limiting argument fail?,3b1b,5,1,1
+What hidden assumption breaks the proof that all triangles are isosceles?,3b1b,1,1,1
+What hidden assumption breaks the proof that all triangles are isosceles?,3b1b,3,1,1
+What hidden assumption breaks the proof that all triangles are isosceles?,3b1b,5,1,1
+Why can a sphere not be flattened without losing geometric information?,3b1b,1,0,0
+Why can a sphere not be flattened without losing geometric information?,3b1b,3,0,1
+Why can a sphere not be flattened without losing geometric information?,3b1b,5,1,1
+Why is the visual proof for the area of a circle valid while the sphere argument is not?,3b1b,1,0,0
+Why is the visual proof for the area of a circle valid while the sphere argument is not?,3b1b,3,0,1
+Why is the visual proof for the area of a circle valid while the sphere argument is not?,3b1b,5,1,1
+What is the true surface area of a sphere according to the video?,3b1b,1,1,1
+What is the true surface area of a sphere according to the video?,3b1b,3,1,1
+What is the true surface area of a sphere according to the video?,3b1b,5,1,1
+How are the jagged curves constructed while keeping perimeter equal to eight?,3b1b,1,1,1
+How are the jagged curves constructed while keeping perimeter equal to eight?,3b1b,3,1,1
+How are the jagged curves constructed while keeping perimeter equal to eight?,3b1b,5,1,1
+How does the video define the limiting curve C infinity?,3b1b,1,1,0
+How does the video define the limiting curve C infinity?,3b1b,3,1,1
+How does the video define the limiting curve C infinity?,3b1b,5,1,1
+What geometric detail causes overlap when the sphere wedges are flattened?,3b1b,1,1,0
+What geometric detail causes overlap when the sphere wedges are flattened?,3b1b,3,1,1
+What geometric detail causes overlap when the sphere wedges are flattened?,3b1b,5,1,1
+What general lesson does the video give about visual intuition in mathematics?,3b1b,1,1,0
+What general lesson does the video give about visual intuition in mathematics?,3b1b,3,1,1
+What general lesson does the video give about visual intuition in mathematics?,3b1b,5,1,1
+How does barrage jamming protect the presidential motorcade from remotely triggered bombs?,neo,1,1,1
+How does barrage jamming protect the presidential motorcade from remotely triggered bombs?,neo,3,1,1
+How does barrage jamming protect the presidential motorcade from remotely triggered bombs?,neo,5,1,1
+"What is the role of the route car, pilot car, and sweepers in the presidential motorcade?",neo,1,1,0
+"What is the role of the route car, pilot car, and sweepers in the presidential motorcade?",neo,3,1,1
+"What is the role of the route car, pilot car, and sweepers in the presidential motorcade?",neo,5,1,1
+How do the half-back and counter-assault team protect the president during an attack?,neo,1,1,0
+How do the half-back and counter-assault team protect the president during an attack?,neo,3,1,1
+How do the half-back and counter-assault team protect the president during an attack?,neo,5,1,1
+What features allow the Beast to protect the president from serious attacks?,neo,1,0,0
+What features allow the Beast to protect the president from serious attacks?,neo,3,1,1
+What features allow the Beast to protect the president from serious attacks?,neo,5,1,1
+How does the presidential motorcade defend against a rocket or guided missile attack?,neo,1,1,1
+How does the presidential motorcade defend against a rocket or guided missile attack?,neo,3,1,1
+How does the presidential motorcade defend against a rocket or guided missile attack?,neo,5,1,1
+Why are there two identical presidential limousines in the motorcade?,neo,1,0,0
+Why are there two identical presidential limousines in the motorcade?,neo,3,1,1
+Why are there two identical presidential limousines in the motorcade?,neo,5,1,1
+How did Kennedy's limousine design make him more vulnerable?,neo,1,1,1
+How did Kennedy's limousine design make him more vulnerable?,neo,3,1,1
+How did Kennedy's limousine design make him more vulnerable?,neo,5,1,1
+What is the function of the road runner vehicle?,neo,1,1,1
+What is the function of the road runner vehicle?,neo,3,1,1
+What is the function of the road runner vehicle?,neo,5,1,1
+What does the hazardous materials mitigation unit do?,neo,1,1,1
+What does the hazardous materials mitigation unit do?,neo,3,1,1
+What does the hazardous materials mitigation unit do?,neo,5,1,1
+What overall role does the presidential motorcade serve according to the video?,neo,1,1,1
+What overall role does the presidential motorcade serve according to the video?,neo,3,1,1
+What overall role does the presidential motorcade serve according to the video?,neo,5,1,1
+How does the zipper slider make the teeth interlock and separate?,veritasium,1,0,0
+How does the zipper slider make the teeth interlock and separate?,veritasium,3,0,0
+How does the zipper slider make the teeth interlock and separate?,veritasium,5,1,0
+Why was Whitcomb Judson's early fastener unreliable?,veritasium,1,1,1
+Why was Whitcomb Judson's early fastener unreliable?,veritasium,3,1,1
+Why was Whitcomb Judson's early fastener unreliable?,veritasium,5,1,1
+How did Sundback make zipper production practical at scale?,veritasium,1,1,1
+How did Sundback make zipper production practical at scale?,veritasium,3,1,1
+How did Sundback make zipper production practical at scale?,veritasium,5,1,1
+Why can the failure of one zipper tooth cause the whole zipper to open?,veritasium,1,0,0
+Why can the failure of one zipper tooth cause the whole zipper to open?,veritasium,3,1,1
+Why can the failure of one zipper tooth cause the whole zipper to open?,veritasium,5,1,1
+How does the zipper locking mechanism stop the slider from opening on its own?,veritasium,1,0,0
+How does the zipper locking mechanism stop the slider from opening on its own?,veritasium,3,1,1
+How does the zipper locking mechanism stop the slider from opening on its own?,veritasium,5,1,1
+How did YKK become the dominant zipper manufacturer?,veritasium,1,0,0
+How did YKK become the dominant zipper manufacturer?,veritasium,3,1,1
+How did YKK become the dominant zipper manufacturer?,veritasium,5,1,1
+How did the name zipper originate?,veritasium,1,1,0
+How did the name zipper originate?,veritasium,3,1,0
+How did the name zipper originate?,veritasium,5,1,0
+Why are coil zippers especially useful on suitcases and backpacks?,veritasium,1,1,0
+Why are coil zippers especially useful on suitcases and backpacks?,veritasium,3,1,1
+Why are coil zippers especially useful on suitcases and backpacks?,veritasium,5,1,1
+What advantage do coil zippers have when it comes to tooth failure?,veritasium,1,0,0
+What advantage do coil zippers have when it comes to tooth failure?,veritasium,3,1,1
+What advantage do coil zippers have when it comes to tooth failure?,veritasium,5,1,1
+How can a worn zipper slider sometimes be repaired at home?,veritasium,1,1,1
+How can a worn zipper slider sometimes be repaired at home?,veritasium,3,1,1
+How can a worn zipper slider sometimes be repaired at home?,veritasium,5,1,1

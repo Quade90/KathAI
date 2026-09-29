@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: reference.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.963959
+RMS amplitude: 0.144632
+Spectral centroid (Hz): 2145.420156
+Spectral bandwidth (Hz): 2637.437858
+Spectral rolloff (Hz): 3972.443491

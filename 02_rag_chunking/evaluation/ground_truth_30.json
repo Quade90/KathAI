@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Why does the sphere surface-area visual proof give the wrong result?",
+    "source": "3b1b",
+    "ground_truth": "The main problem with the sphere argument is that when we flatten out all of those orange wedges, if we were to do it accurately in a way that preserves their area, they don't look like triangles, they should bulge outward. And if you want to see this, let's think really critically about just one particular one of those wedges on the sphere and ask yourself, how does the width across that wedge, this little portion of a line of latitude, vary as you go up and down the wedge? In particular, if you consider the angle phi from the z-axis down to a point on this wedge as we walk down it, what's the length of that width as a function of phi? For those of you curious about the details of these sorts of things, you'd start off by drawing this line up here from the z-axis to a point on the wedge. Its length will be the radius of the sphere r times the sine of this angle. That lets us deduce how long the total line of latitude is where we're sitting. It'll basically be 2 pi times that radial line, 2 pi r sine of phi. And then the width of the wedge that we care about is just some constant proportion of that full line of latitude. Now the details don't matter too much, the one thing I want you to notice is that this is not a linear relationship. As you walk from the top of that wedge down to the bottom, letting phi range from zero up to pi halves, the width of the wedge doesn't grow linearly, instead it grows according to a sine curve. And so, when we're unwrapping all of these wedges, if we want those widths to be preserved, they should end up a little bit chubbier around the base, their side lengths are not linear. What this means is when we try to interlace all of the wedges from the northern hemisphere with those from the southern, there's a meaningful amount of overlap between those non-linear edges. And we can't wave our hands about a limiting argument, this is an overlap that persists as you take finer and finer subdivisions. And ultimately, it's that overlap that accounts for the difference between our false answer with a pi squared from the true answer that has 4 pi."
+  },
+  {
+    "question": "Why does the pi equals four limiting argument fail?",
+    "source": "3b1b",
+    "ground_truth": "Here, the basic issue is that there is no reason to expect that the limit of the lengths of the curves is the same as the length of the limits of the curves. And in fact, this is a nice counter example to show why that's not the case. The real point of this example is not the fear that anyone is ever going to believe that it shows that pi is equal to four. Instead, it shows why care is required in other cases where people apply limiting arguments."
+  },
+  {
+    "question": "What hidden assumption breaks the proof that all triangles are isosceles?",
+    "source": "3b1b",
+    "ground_truth": "The one place where the proof breaks down is at the very end, when I said that the full side length AC was equal to AE plus EC. That was only true under the hidden assumption that that point E sat in between them. But in reality, for many triangles, that point would sit outside of those two."
+  },
+  {
+    "question": "Why can a sphere not be flattened without losing geometric information?",
+    "source": "3b1b",
+    "ground_truth": "One quick added comment on the sphere, the fundamental issue here is that the geometry of a curved surface is fundamentally different from the geometry of flat space. The relevant search term here would be Gaussian curvature. You can't flatten things out from a sphere without losing geometric information. Now, when you do see limiting arguments that relate to little pieces on a sphere that somehow get flattened out and are reasoned through there, those only can work if the limiting pieces that you're talking about get smaller in both directions. It's only when you zoom in close to a curved surface that it appears locally flat. The issue with our orange wedge argument is that our pieces never got exposed to that local flatness because they only got thin in one direction. They maintained the curvature in that other direction."
+  },
+  {
+    "question": "Why is the visual proof for the area of a circle valid while the sphere argument is not?",
+    "source": "3b1b",
+    "ground_truth": "This time the result is valid. But why is it not okay to do what we did with the spheres, but somehow it is okay to do this with the pizza slices? The main problem with the sphere argument is that when we flatten out all of those orange wedges, if we were to do it accurately in a way that preserves their area, they don't look like triangles, they should bulge outward. And if you want to see this, let's think really critically about just one particular one of those wedges on the sphere and ask yourself, how does the width across that wedge, this little portion of a line of latitude, vary as you go up and down the wedge? In particular, if you consider the angle phi from the z-axis down to a point on this wedge as we walk down it, what's the length of that width as a function of phi? For those of you curious about the details of these sorts of things, you'd start off by drawing this line up here from the z-axis to a point on the wedge. Its length will be the radius of the sphere r times the sine of this angle. That lets us deduce how long the total line of latitude is where we're sitting. It'll basically be 2 pi times that radial line, 2 pi r sine of phi. And then the width of the wedge that we care about is just some constant proportion of that full line of latitude. Now the details don't matter too much, the one thing I want you to notice is that this is not a linear relationship. As you walk from the top of that wedge down to the bottom, letting phi range from zero up to pi halves, the width of the wedge doesn't grow linearly, instead it grows according to a sine curve. And so, when we're unwrapping all of these wedges, if we want those widths to be preserved, they should end up a little bit chubbier around the base, their side lengths are not linear."
+  },
+  {
+    "question": "What is the true surface area of a sphere according to the video?",
+    "source": "3b1b",
+    "ground_truth": "The proof is elegant, it translates a hard problem into a situation that's easier to understand, it has that element of surprise while still being intuitive, its only fault really is that it's completely wrong, the true surface area of a sphere is 4 pi r squared."
+  },
+  {
+    "question": "How are the jagged curves constructed while keeping perimeter equal to eight?",
+    "source": "3b1b",
+    "ground_truth": "First of all, just to make things crystal clear, the way each of these iterations works is to fold in each of the corners of the previous shape, so that they just barely kiss the circle. And you can take a moment to convince yourself that in each region where a fold happened, the perimeter doesn't change. For example, in the upper right here, instead of walking up and then left, the new curve goes left and then up. And something similar is true at all of the folds of all of the different iterations. Wherever the previous iteration went direction A, then direction B, the new iteration goes direction B, then direction A, but no length is lost or gained."
+  },
+  {
+    "question": "How does the video define the limiting curve C infinity?",
+    "source": "3b1b",
+    "ground_truth": "Now I want you to consider a particular value of T, maybe 0.2, and then consider the sequence of points that you get by evaluating the sequence of functions we have at this particular point. Now I want you to consider the limit as n approaches infinity of C sub n of 0.2. This limit is a well defined point in 2D space. In fact, that point sits on the circle. And there's nothing specific about 0.2, we could do this limiting process for any input T. And so I can define a new function that I'll call C infinity, which by definition at any input T is whatever this limiting value for all the curves is. So here's the point, that limiting function C infinity is the circle. It's not an approximation of the circle, it's not some jagged version of the circle, it is the genuine smooth circular curve whose perimeter we want to know."
+  },
+  {
+    "question": "What geometric detail causes overlap when the sphere wedges are flattened?",
+    "source": "3b1b",
+    "ground_truth": "And so, when we're unwrapping all of these wedges, if we want those widths to be preserved, they should end up a little bit chubbier around the base, their side lengths are not linear. What this means is when we try to interlace all of the wedges from the northern hemisphere with those from the southern, there's a meaningful amount of overlap between those non-linear edges."
+  },
+  {
+    "question": "What general lesson does the video give about visual intuition in mathematics?",
+    "source": "3b1b",
+    "ground_truth": "The point in all of this is that while visual intuition is great, and visual proofs often give you a nice way of elucidating what's going on with otherwise opaque rigor, visual arguments and snazzy diagrams will never obviate the need for critical thinking. In math, you cannot escape the need to look out for hidden assumptions and edge cases."
+  },
+  {
+    "question": "How does barrage jamming protect the presidential motorcade from remotely triggered bombs?",
+    "source": "neo",
+    "ground_truth": "The remote trigger didn't work, and that is because of this car, the electronic countermeasure suburban, one of the most technically impressive vehicles in the motorcade. On its roof, antennas emit radio frequencies that drown out any bomb activation signal. This technique is called barrage jamming, and it essentially works by the antennas emitting such a strong noise signal that other signals simply cannot get through."
+  },
+  {
+    "question": "What is the role of the route car, pilot car, and sweepers in the presidential motorcade?",
+    "source": "neo",
+    "ground_truth": "While the President is still about two minutes away from the manhole cover with the bomb, the first car of the motorcade, the route car, is already driving past this spot. This car, together with the pilot car, ensures that the road is clear of obstructions. The sweepers, which are primarily motorcycles, follow the route car and pilot car and help clear the road ahead."
+  },
+  {
+    "question": "How do the half-back and counter-assault team protect the president during an attack?",
+    "source": "neo",
+    "ground_truth": "Following behind are two cars carrying the President's most important security personnel, ready to take action in the event of an attack. This is the so-called half-back in which the President's personal Secret Service agents are located. No matter what happens, these agents will stay with the President. The other car carries the counter-assault team. These heavily armed agents can remain on site and fight off an attack. This creates a secure buffer between attackers and the President."
+  },
+  {
+    "question": "What features allow the Beast to protect the president from serious attacks?",
+    "source": "neo",
+    "ground_truth": "The current beast has been in service since September 2018 and is a completely custom built vehicle by General Motors. Although visually reminiscent of a sedan, the car was actually built based on a truck platform. This was necessary to support the over 15,000 pound heavy armored vehicle. The interior is hermetically sealed against any form of chemical attack. The tires are able to continue driving even when shot and the doors are 8 inches thick and a grip with handles that, with the switch of a button, can be electrified in order to prohibit entry to outsiders. Always inside the car, there is a storage of blood of the same blood type as the president. It is a luxury tank designed to withstand any possible threat."
+  },
+  {
+    "question": "How does the presidential motorcade defend against a rocket or guided missile attack?",
+    "source": "neo",
+    "ground_truth": "At this point, the presidential limousine arrives at the intersection with the van. Quickly, a man jumps out and aims the rocket launcher directly at the limousine. For this case, the presidential limousines and the electronic countermeasure vehicle are equipped with smoke grenades. As soon as they are triggered, the cars disappear in the smoke, preventing a clear line of sight. This so-called infrared smoke screen is composed in such a way that it conceals the heat signature of objects. That means that even more complex guided missiles would not succeed in tracking the target. Meanwhile, the beast flees the scene."
+  },
+  {
+    "question": "Why are there two identical presidential limousines in the motorcade?",
+    "source": "neo",
+    "ground_truth": "However, you can never be sure in which car the President is, as there are two identical Presidential limousines on the road."
+  },
+  {
+    "question": "How did Kennedy's limousine design make him more vulnerable?",
+    "source": "neo",
+    "ground_truth": "In addition, the roof was made to be completely removable and the cushion on the rear bank where the President sits was raised. Both these modifications were designed to make the President more visible to the public. Unfortunately, it also made him more vulnerable."
+  },
+  {
+    "question": "What is the function of the road runner vehicle?",
+    "source": "neo",
+    "ground_truth": "This is the so-called road runner, recognizable by the antenna above the roof. This car is the mobile communication hub of the motorcade, ensuring that the president is fully operational at all times. The car provides satellite and internet communications and it feeds a direct encrypted link to the Pentagon, allowing the president to hold secure phone and video conversations even when on road."
+  },
+  {
+    "question": "What does the hazardous materials mitigation unit do?",
+    "source": "neo",
+    "ground_truth": "That is the hazardous materials mitigation unit, a vehicle equipped to respond to biological, chemical and even nuclear attacks. It carries the necessary equipment and personnel to treat the effects of such an attack effectively."
+  },
+  {
+    "question": "What overall role does the presidential motorcade serve according to the video?",
+    "source": "neo",
+    "ground_truth": "The presidential motorcade is a highly fought-for system. Although the enormous number of cars may seem a bit arbitrary at first glance, a closer look reveals that the different vehicles all fulfill different tasks and together function as a White House on wheels."
+  },
+  {
+    "question": "How does the zipper slider make the teeth interlock and separate?",
+    "source": "veritasium",
+    "ground_truth": "Sundback's modern zipper starts with two rows of teeth, and the teeth are shaped so that they're wider at the end than the opening on the other side. So if you try to push them together, it's pretty hard. Now this is especially true on a real size zipper, where it's practically impossible. But if I add this slider to the bottom and try pulling on the pull tab here, suddenly it's effortless. So how does it do it? Well, I can remove the cover from the slider to reveal that it's just a Y-shaped cavity. That's it. See, as you zip up, the Y-shaped cavity tilts the teeth at just the right angle so that the tooth has enough space to slot into its groove without bumping into the tooth above. And as you zip down, this wedge-shaped piece separates the teeth, allowing you to unzip."
+  },
+  {
+    "question": "Why was Whitcomb Judson's early fastener unreliable?",
+    "source": "veritasium",
+    "ground_truth": "Judson's fastener design was a mess. It jammed constantly and because it was delicate and made from rust-prone steel, it actually had to be removed from the garment before you could wash it, so literally unsewn from your skirt. Moreover, if a single hook and eye were out of place, the whole fastener became unstable, so simply bend over and the whole thing could pop open."
+  },
+  {
+    "question": "How did Sundback make zipper production practical at scale?",
+    "source": "veritasium",
+    "ground_truth": "But there was a problem. Even though Sunback had a new design and a patent, manufacturing a zipper like this in the 1910s was very impractical. Each of the tiny teeth needed to be precisely shaped for the fastener to work, but at the time there were simply no tools around that could do this reliably. So he had to come up with some extraordinarily clever machineries that allowed him to automate the production of the zipper from the very beginning. Sunback's machine worked like this. It took Y-shaped wire made from a nickel alloy as an input. First, it sliced pieces off the wire to serve as individual teeth, and then it stamped the scoop and nib into each tooth. Finally, the machine would clamp the two arms of the Y-shaped together onto a piece of fabric called the tape. This tape held all the teeth in place, and it was the part of the zipper that would later get stitched onto clothes and other products."
+  },
+  {
+    "question": "Why can the failure of one zipper tooth cause the whole zipper to open?",
+    "source": "veritasium",
+    "ground_truth": "But there is a way for this mechanism to fail. If even a single tooth falls off, well then its neighbors have enough space to come loose, and then their neighbors come loose, and this causes a cascading effect, and the whole zipper pops open."
+  },
+  {
+    "question": "How does the zipper locking mechanism stop the slider from opening on its own?",
+    "source": "veritasium",
+    "ground_truth": "To prevent that, Gideon Sunback himself actually designed a locking mechanism, like a brake Under the piece that connects the pull tap to the slider, there is a small metal pin. When the pull tap is in its typical resting position, one end of the pin sticks through a hole in the bottom face of the slider, lodging itself between the zippers teeth or coils. That way, the slider is stuck in place, but when the pull tap is pulled forward, this releases the pin, allowing the slider to move. Now you can see that there's like this little tiny gap through which you can see light, and that's because the zipper stop is now engaged. But if I grab the pull tab and start pulling, you can see that because of the way that it's shaped, it's actually going to end up pushing that part up, even though I'm pulling to the side, and that's going to disengage. You can try to pull apart the fly on your pants, but unless you actually grab the pull tab and pull it down, it is not going to open."
+  },
+  {
+    "question": "How did YKK become the dominant zipper manufacturer?",
+    "source": "veritasium",
+    "ground_truth": "Well, talent pretty much ruled the zipper market until the 1930s, but in 1934, Sunback's original patent expired, so the playing field was wide open to competitors. That same year, Japanese businessman, Tadahyoshida, founded a new fastener company, the Yoshida Manufacturing Corporation, or YKK. It began as a single workshop in Tokyo where each zipper was made by hand. Then in 1945, that workshop was completely destroyed by Allied bombs. But Yoshida was undaunted. He rebuilt the plant and after the war, he started buying zipper making machines from the U.S. They improved the machine, particularly they improved the speed. They then also decided to switch to manufacturing everything in-house, from the zippers themselves to the machines to even the boxes that the zippers were shipped in. And YKK emphasizes quality above everything else. They make a real point of saying that if you have a YKK zipper, you can depend on it utterly. And that turned out to be an enormously successful sale tack."
+  },
+  {
+    "question": "How did the name zipper originate?",
+    "source": "veritasium",
+    "ground_truth": "Now those rubber boots were particularly important. They were manufactured by the BF Goodrich Company. When they got a hold of the device, they were convinced that yes, this would give us a leg up on our competitor. We will introduce this automatic fastener, but we need a name for it. Then the company's president had an idea. Well, you know, it worked really well. It's pretty nice. You can just sort of, you know, it just goes sort of zip when you're closing it and when you're opening it. So BF Goodrich came out in the early 1920s with their zipper boots. The boots were such a hit that the name zipper transcended the shoe and became the name for the fastener itself."
+  },
+  {
+    "question": "Why are coil zippers especially useful on suitcases and backpacks?",
+    "source": "veritasium",
+    "ground_truth": "This is known as a coil zipper. It showed up around the 1940s as a cheap alternative to the original design, and now you can find it everywhere, especially on things like suitcases and backpacks where the zipper needs flexibility to maneuver around corners."
+  },
+  {
+    "question": "What advantage do coil zippers have when it comes to tooth failure?",
+    "source": "veritasium",
+    "ground_truth": "Those zippers also have another benefit. Since all of their teeth are one interconnected piece of plastic, there's no way for a single tooth to fall off, so that itself cannot cause that cascading failure."
+  },
+  {
+    "question": "How can a worn zipper slider sometimes be repaired at home?",
+    "source": "veritasium",
+    "ground_truth": "A worn down slider is something you might be able to fix at home. Just take some pliers and crimp the slider together from the sides. That will make the inner cavity more narrow, just like when it was new, which should make it bring the teeth together again. Just don't crimp it too tightly."
+  }
+]

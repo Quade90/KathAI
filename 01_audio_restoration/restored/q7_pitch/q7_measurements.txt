@@ -1,0 +1,31 @@
+Q7: CLEANER AUDIO VS INFORMATION LOSS
+=====================================
+
+Sample rate: 48000 Hz
+High-pass cutoff: 250 Hz
+Filter order: 6
+
+RMS
+---
+Reference: 0.144632
+Noisy: 0.145157
+Processed: 0.096035
+
+Pitch tracking
+--------------
+Reference voiced fraction: 0.725027
+Noisy voiced fraction: 0.512895
+Processed voiced fraction: 0.528151
+
+Reference median F0: 110.478 Hz
+Noisy median F0: 111.118 Hz
+Processed median F0: 111.762 Hz
+
+Reference pitch confidence: 0.186623
+Noisy pitch confidence: 0.030211
+Processed pitch confidence: 0.111209
+
+Spectral centroid
+-----------------
+Noisy: 5885.496 Hz
+Processed: 8302.134 Hz

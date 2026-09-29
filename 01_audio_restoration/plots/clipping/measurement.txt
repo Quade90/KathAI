@@ -1,0 +1,13 @@
+AUDIO MEASUREMENTS
+==================
+
+Input file: clipped_05.wav
+
+Duration (s): 14.677333
+Sample rate (Hz): 48000
+Samples: 704512
+Peak amplitude: 0.300018
+RMS amplitude: 0.116633
+Spectral centroid (Hz): 2290.522421
+Spectral bandwidth (Hz): 2907.981156
+Spectral rolloff (Hz): 4191.023284

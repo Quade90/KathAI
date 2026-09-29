@@ -10,7 +10,9 @@ Format:
 ```
 
 ## Audio (2.1)
-
+https://www.youtube.com/watch?v=-Yxj3yfvY-4 - STFT
+https://librosa.org/doc/main/api/generated/librosa.feature.melspectrogram.html - librosa melspectogram
+https://librosa.org/doc/main/api/generated/librosa.stft.html - librosa stft
 -
 
 ## RAG / Chunking (2.2)

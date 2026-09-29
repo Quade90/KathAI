@@ -1,0 +1,22 @@
+DEREVERBERATION RESTORATION MEASUREMENTS
+=========================================
+
+Sample rate: 48000 Hz
+Duration: 14.677333 s
+Regularization: 0.001
+
+Reference vs degraded
+---------------------
+RMSE: 0.169834
+Correlation: 0.189163
+
+Reference vs restored
+---------------------
+RMSE: 0.112117
+Correlation: 0.954548
+
+RMS comparison
+--------------
+Reference RMS: 0.144632
+Degraded RMS: 0.120491
+Restored RMS: 0.034561
