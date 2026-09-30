@@ -1,0 +1,24 @@
+MODEL: Helsinki-NLP/opus-mt-it-en
+FLORES DEV ID: 0
+ITALIAN SOURCE: Nella giornata di lunedì, alcuni scienziati della Scuola di Medicina dell'Università di Stanford hanno annunciato l'invenzione di un nuovo strumento diagnostico capace di ordinare le cellule in base al tipo: un chip minuscolo che può essere stampato utilizzando stampanti a getto di inchiostro al costo di circa 1 centesimo di dollaro l'uno.
+ENGLISH REFERENCE: On Monday, scientists from the Stanford University School of Medicine announced the invention of a new diagnostic tool that can sort cells by type: a tiny printable chip that can be manufactured using standard inkjet printers for possibly about one U.S. cent each.
+
+1. TOKENIZATION / MODEL INPUT
+Input tokens: ['▁Nell', 'a', '▁giornata', '▁di', '▁lunedì', ',', '▁alcuni', '▁scienziati', '▁della', '▁Scuola', '▁di', '▁Medi', 'cina', '▁dell', "'", 'Università', '▁di', '▁Stan', 'ford', '▁hanno', '▁annunciato', '▁l', "'", 'invenzione', '▁di', '▁un', '▁nuovo', '▁strumento', '▁diagnostico', '▁capace', '▁di', '▁ordinare', '▁le', '▁cellule', '▁in', '▁base', '▁al', '▁tipo', ':', '▁un', '▁chip', '▁', 'minus', 'colo', '▁che', '▁può', '▁essere', '▁stampato', '▁utilizzando', '▁stampa', 'nti', '▁a', '▁getto', '▁di', '▁inchiostro', '▁al', '▁costo', '▁di', '▁circa', '▁1', '▁cente', 'simo', '▁di', '▁dollaro', '▁l', "'", 'uno', '.', '</s>']
+Input token IDs: [976, 34, 3787, 6, 11959, 3, 833, 14781, 37, 13632, 6, 6175, 1568, 66, 5, 6390, 6, 8717, 6752, 235, 12190, 35, 5, 31040, 6, 23, 617, 2728, 36185, 7632, 6, 18309, 46, 8504, 7, 424, 58, 794, 21, 23, 13841, 17, 19833, 3505, 16, 253, 114, 19259, 4950, 2609, 361, 9, 20719, 6, 31868, 58, 2936, 6, 792, 124, 13128, 4479, 6, 19695, 35, 5, 8638, 2, 0]
+Attention mask: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+2. ENCODER
+Last hidden state shape: (1, 69, 512)
+Shape: (batch size, source token count, hidden dimension)
+Hidden dimension: 512
+Encoder layers: 6
+Decoder layers: 6
+
+3. DECODER / GENERATION
+Generation settings: beam search (num_beams=4), max_new_tokens=128
+Generated token IDs: [80378, 609, 8007, 3, 298, 14203, 83, 8717, 6752, 3634, 14403, 8263, 8506, 4, 7, 19866, 8, 9, 251, 20885, 4642, 7107, 8, 23819, 7326, 1769, 11, 4, 1438, 21, 9, 14503, 13841, 30, 97, 45, 10940, 1052, 7, 250, 28049, 32063, 83, 4, 1447, 8, 155, 124, 1338, 16852, 636, 2, 0]
+Generated tokens: ['<pad>', '▁On', '▁Monday', ',', '▁some', '▁scientists', '▁at', '▁Stan', 'ford', '▁University', '▁Medical', '▁School', '▁announced', '▁the', '▁in', 'vention', '▁of', '▁a', '▁new', '▁diagnostic', '▁tool', '▁capable', '▁of', '▁ordering', '▁cells', '▁according', '▁to', '▁the', '▁type', ':', '▁a', '▁tiny', '▁chip', '▁that', '▁can', '▁be', '▁printed', '▁using', '▁in', 'k', 'jet', '▁printers', '▁at', '▁the', '▁cost', '▁of', '▁about', '▁1', '▁cent', '▁dollar', '▁each', '.', '</s>']
+
+4. TEXT DECODING
+English output: On Monday, some scientists at Stanford University Medical School announced the invention of a new diagnostic tool capable of ordering cells according to the type: a tiny chip that can be printed using inkjet printers at the cost of about 1 cent dollar each.

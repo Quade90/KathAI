@@ -1,8 +1,10 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 import librosa
 import librosa.display
 import soundfile as sf
+
 from pathlib import Path
 
 
@@ -111,25 +113,29 @@ def analyze_audio(input_path, output_dir):
     plt.close()
 
     # ==================================================
-    # 2. Frequency spectrum
+    # 2. Frequency spectrum (FULL RECORDING)
     # ==================================================
 
-    n_fft = 4096
+    # Use the complete signal instead of truncating
+    # it to the first 4096 samples.
+
+    n_fft = len(y)
 
     spectrum = np.abs(
-        np.fft.rfft(y, n=n_fft)
+        np.fft.rfft(y)
     )
 
     frequencies = np.fft.rfftfreq(
         n_fft,
-        1 / sr
+        d=1 / sr
     )
 
     plt.figure(figsize=(12, 4))
 
     plt.plot(
         frequencies,
-        spectrum
+        spectrum,
+        linewidth=0.7
     )
 
     plt.xlim(

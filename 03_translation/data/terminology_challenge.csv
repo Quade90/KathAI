@@ -1,0 +1,21 @@
+id,domain,test_type,italian,reference_english,phenomenon
+A1,aerospace,technical_term,Il modulo di comando è rientrato nell'atmosfera terrestre dopo sei giorni nello spazio.,The command module re-entered Earth's atmosphere after six days in space.,command module
+A2,aerospace,technical_term,Durante la missione gli astronauti hanno controllato i sistemi del modulo di comando.,During the mission the astronauts checked the command module's systems.,command module in longer context
+A3,aerospace,negative_control,Il modulo di controllo regola automaticamente la temperatura del motore.,The control module automatically regulates the engine temperature.,control module is correct
+A4,aerospace,technical_term,La NASA ha recuperato il modulo di comando nell'Oceano Pacifico.,NASA recovered the command module in the Pacific Ocean.,command module with agency context
+A5,aerospace,negative_control,Il tecnico ha sostituito un componente elettronico nel modulo di controllo.,The technician replaced an electronic component in the control module.,control module is correct
+G1,geology,technical_term,Le scarpate lobate sulla superficie lunare indicano un progressivo restringimento della Luna.,Lobate scarps on the lunar surface indicate that the Moon is gradually contracting.,lobate scarps
+G2,geology,technical_term,I ricercatori hanno individuato nuove scarpate lobate nelle immagini orbitali della Luna.,Researchers identified new lobate scarps in orbital images of the Moon.,lobate scarps in new phrasing
+G3,geology,related_term,Il terremoto ha provocato la formazione di una lunga scarpata lungo la faglia.,The earthquake caused a long scarp to form along the fault.,singular scarp
+G4,geology,technical_term,Gli astronauti hanno attraversato un terreno roccioso vicino alle scarpate lobate.,The astronauts crossed rocky terrain near the lobate scarps.,lobate scarps in oblique phrase
+G5,geology,negative_control,Prima dell'escursione gli studenti hanno acquistato nuove scarpe da trekking.,Before the excursion the students bought new hiking shoes.,actual footwear must stay shoes
+P1,physics,technical_term,Nel nucleo del Sole i nuclei di idrogeno si fondono liberando enormi quantità di energia.,In the Sun's core hydrogen nuclei fuse releasing enormous amounts of energy.,fuse versus melt or merge
+P2,physics,technical_term,Quando i nuclei leggeri si fondono possono formare nuclei più pesanti.,When light nuclei fuse they can form heavier nuclei.,fuse in a different sentence
+P3,physics,negative_control,Il ghiaccio fonde lentamente quando la temperatura supera gli zero gradi Celsius.,Ice melts slowly when the temperature rises above zero degrees Celsius.,melt must not become fuse
+P4,physics,related_term,Per costruire questa struttura i due pezzi di metallo vengono uniti mediante saldatura.,To build this structure the two metal pieces are joined by welding.,join not nuclear fusion
+P5,physics,technical_term,Nelle stelle i nuclei di idrogeno si uniscono (o si fondono) per formare elio.,In stars hydrogen nuclei join (or fuse) to form helium.,distinct terms in parentheses
+E1,everyday_context,context_ambiguity,Il manuale di origami contiene istruzioni semplici per aiutare i piegatori inesperti.,The origami manual contains simple instructions to help inexperienced paper folders.,folders in paper context
+E2,everyday_context,negative_control,I piegatori di metalli utilizzano macchinari industriali per modellare le lamiere.,Metal benders use industrial machinery to shape sheet metal.,benders in metal context
+E3,everyday_context,context_ambiguity,Durante la colazione il padrone di casa ci ha servito una specialità locale.,At breakfast the host served us a local specialty.,host rather than landlord
+E4,everyday_context,context_ambiguity,Per utilizzare il navigatore è necessario aggiornare le carte del GPS.,To use the navigation system the GPS maps need to be updated.,GPS maps with a new Italian construction
+E5,everyday_context,context_ambiguity,Il viaggiatore ha acquistato un dispositivo GPS autonomo per evitare di usare il telefono.,The traveller bought a standalone GPS device to avoid using their phone.,standalone rather than autonomous

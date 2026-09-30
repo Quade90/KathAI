@@ -13,6 +13,10 @@ Format:
 https://www.youtube.com/watch?v=-Yxj3yfvY-4 - STFT
 https://librosa.org/doc/main/api/generated/librosa.feature.melspectrogram.html - librosa melspectogram
 https://librosa.org/doc/main/api/generated/librosa.stft.html - librosa stft
+The digital all-pass filter: a versatile signal processing building bloc
+https://www.analog.com/en/resources/glossary/notch-filter.html - notch filters
+https://www.youtube.com/watch?v=tpAA5eUb6eo - notch filters
+
 -
 
 ## RAG / Chunking (2.2)
