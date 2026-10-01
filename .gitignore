@@ -1,3 +1,6 @@
+# =========================
+# General
+# =========================
 
 # Python cache
 __pycache__/
@@ -14,9 +17,6 @@ env/
 .env.*
 !.env.example
 
-# Downloaded video/audio files
-videos/
-
 # Local IDE files
 .vscode/
 .idea/
@@ -24,15 +24,77 @@ videos/
 # OS-generated files
 .DS_Store
 Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
 
 # Temporary files
 *.tmp
 *.log
 
-
-# to-do list
+# Personal notes
 todo.txt
 
-# Windows
-desktop.ini
-$RECYCLE.BIN/
+# Downloaded video/audio files
+videos/
+
+# Local writeup and notes
+writeup/
+notes/
+
+# =========================
+# 01 - Audio Restoration
+# =========================
+
+# Generated audio
+01_audio_restoration/degraded/
+01_audio_restoration/restored/
+
+# Generated plots and measurements
+01_audio_restoration/plots/
+
+# Personal/source reference recording
+01_audio_restoration/reference/reference.wav
+
+# Other audio binaries
+*.mp3
+
+
+# =========================
+# 02 - RAG / Chunking
+# =========================
+
+# Generated embeddings
+02_rag_chunking/embeddings/
+
+# Generated chunks
+02_rag_chunking/transcripts/chunks/
+02_rag_chunking/transcripts/baseline_chunks/
+
+# Generated evaluation results
+02_rag_chunking/evaluation/chunking_comparison.csv
+02_rag_chunking/evaluation/threshold_test_results.csv
+
+
+# =========================
+# 03 - Translation
+# =========================
+
+# Downloaded FLORES+ dataset
+03_translation/data/flores_dev.csv
+03_translation/data/flores_devtest.csv
+
+# Generated baseline/evaluation outputs
+03_translation/data/baseline_preview.csv
+03_translation/data/eval_sample.csv
+03_translation/data/baseline_results.csv
+03_translation/data/development_review.csv
+03_translation/data/terminology_results.csv
+03_translation/data/perturbation_results.csv
+
+
+# =========================
+# Model / library caches
+# =========================
+
+.cache/
+huggingface/

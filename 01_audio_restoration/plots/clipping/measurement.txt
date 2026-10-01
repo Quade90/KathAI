@@ -1,7 +1,7 @@
 AUDIO MEASUREMENTS
 ==================
 
-Input file: clipped_05.wav
+Input file: clipped_03.wav
 
 Duration (s): 14.677333
 Sample rate (Hz): 48000

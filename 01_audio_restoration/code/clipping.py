@@ -11,8 +11,7 @@ input_path = BASE_DIR / "reference" / "reference.wav"
 output_dir = BASE_DIR / "degraded"
 output_dir.mkdir(exist_ok=True)
 
-output_path = output_dir / "clipped_05.wav"
-
+output_path = output_dir / "clipped_03.wav"
 
 # ==================================================
 # Clipping parameter

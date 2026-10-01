@@ -1,20 +1,22 @@
-# Audio
-librosa
-scipy
-soundfile
+# Core
 numpy
+scipy
+pandas
+torch
+
+# Audio restoration
+librosa
+soundfile
 matplotlib
 
-# ASR
+# Speech transcription
 openai-whisper
 
-# RAG / embeddings
+# RAG / retrieval
 sentence-transformers
+spacy
 
 # Translation
-transformers
-sacremoses
+transformers>=4.44,<5
 sentencepiece
-
-# Notebooks
-jupyter
+datasets

@@ -11,7 +11,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 reference_path = BASE_DIR / "reference" / "reference.wav"
-degraded_path = BASE_DIR / "degraded" / "clipped_05.wav"
+degraded_path = BASE_DIR / "degraded" / "clipped_03.wav"
 
 output_dir = BASE_DIR / "restored" / "wrong_dereverb_clipping"
 
